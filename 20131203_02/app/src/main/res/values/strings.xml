@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">婚姻建議</string>
+    <string name="suggest">建議：</string>
+    <string name="sug_not_hurry">還不急。</string>
+    <string name="sug_find">開始找對象。。。</string>
+    <string name="sug_get_marry">趕快結婚吧！</string>
+    <string name="male">男</string>
+</resources>
