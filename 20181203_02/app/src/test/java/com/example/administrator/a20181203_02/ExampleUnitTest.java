@@ -1,4 +1,4 @@
-package com.example.a10_g.a20131203_02;
+package com.example.administrator.a20181203_02;
 
 import org.junit.Test;
 

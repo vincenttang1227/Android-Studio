@@ -1,8 +1,8 @@
-package com.example.a10_g.a20131203_02;
+package com.example.administrator.a20181203_02;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Editable;
+//import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -52,8 +52,7 @@ public class MainActivity extends AppCompatActivity {
                         sugStr += (R.string.startFinding);
                 }
                 tvSug.setText(sugStr);
-            }
-            else{
+            } else {
                 btnOk.setText("確定");
                 etSex.setText("");
                 etAge.setText("");

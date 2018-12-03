@@ -1,4 +1,4 @@
-package com.example.a10_g.a20131203_02;
+package com.example.administrator.a20181203_02;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.a10_g.a20131203_02", appContext.getPackageName());
+        assertEquals("com.example.administrator.a20181203_02", appContext.getPackageName());
     }
 }
