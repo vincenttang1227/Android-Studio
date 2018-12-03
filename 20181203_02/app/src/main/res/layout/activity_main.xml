@@ -10,7 +10,7 @@
         android:id="@+id/tvSex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:text="性別： (男/女)"
@@ -50,8 +50,8 @@
         android:text="確定"
         android:textColor="#0000ff"
         android:textSize="24sp"
-        app:layout_constraintTop_toBottomOf="@+id/etAge"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintStart_toStartOf="@+id/etAge"
+        app:layout_constraintTop_toBottomOf="@+id/etAge" />
 
     <TextView
         android:id="@+id/tvSug"
