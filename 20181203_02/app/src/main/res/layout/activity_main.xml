@@ -48,6 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:background="#ffff00"
+        android:onClick="btnOnClick"
         android:text="確定"
         android:textColor="#0000ff"
         android:textSize="24sp"
