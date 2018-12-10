@@ -9,74 +9,86 @@
 
     <TextView
         android:id="@+id/tvSex"
-        android:layout_width="360dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="10dp"
         android:background="@android:color/darker_gray"
         android:text="性別： (男/女)"
         android:textColor="#0000ff"
         android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/etSex"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="請輸入您的性別..."
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/tvSex"
-        app:layout_constraintTop_toBottomOf="@+id/tvSex" />
-
     <TextView
         android:id="@+id/tvAge"
-        android:layout_width="360dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
         android:background="@android:color/darker_gray"
         android:text="年齡："
         android:textColor="#0000ff"
         android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="@+id/etSex"
-        app:layout_constraintTop_toBottomOf="@+id/etSex" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinSex" />
 
     <Button
         android:id="@+id/btnOk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@android:color/holo_green_light"
-        android:onClick="btnOnClick"
         android:text="確定"
         android:textColor="#0000ff"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/etAge"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etAge" />
 
     <TextView
         android:id="@+id/tvSug"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
         android:text="建議："
         android:textColor="#ff0000"
         android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="@+id/btnOk"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOk" />
 
     <EditText
         android:id="@+id/etAge"
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="請輸入您的年齡..."
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/tvAge"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvAge" />
+
+    <Spinner
+        android:id="@+id/spinSex"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:animateLayoutChanges="true"
+        android:entries="@array/spinSex"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSex" />
 
 </android.support.constraint.ConstraintLayout>

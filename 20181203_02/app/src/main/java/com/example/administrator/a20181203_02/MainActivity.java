@@ -2,13 +2,14 @@ package com.example.administrator.a20181203_02;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-//import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    //宣告要操作的元件變數名稱(自訂)
     private TextView tvSug;
     private EditText etSex, etAge;
     private Button btnOk;
@@ -18,12 +19,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //將版面元件的id指定給對應的元件變數
         etSex = findViewById(R.id.etSex);
         etAge = findViewById(R.id.etAge);
         btnOk = findViewById(R.id.btnOk);
         tvSug = findViewById(R.id.tvSug);
     }
 
+    //自訂onClick方法(無需設定監聽)
     public void btnOnClick(View view) {
         if (btnOk.getText().toString().equals("確定")) {
             btnOk.setText("重來");
