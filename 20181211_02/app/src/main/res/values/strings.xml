@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">選擇興趣</string>
+    <string name="music">音樂</string>
+    <string name="sing">唱歌</string>
+    <string name="dance">跳舞</string>
+    <string name="travel">旅行</string>
+    <string name="read">閱讀</string>
+    <string name="write">寫作</string>
+    <string name="climb">爬山</string>
+    <string name="swim">游泳</string>
+    <string name="sport">運動</string>
+    <string name="fit">健身</string>
+    <string name="photo">攝影</string>
+    <string name="draw">繪圖</string>
+    <string name="food">美食</string>
+    <string name="yourHobby">您的興趣：</string>
+    <string name="ok">確定</string>
+    <string name="reset">重選</string>
+    <string name="dot">、</string>
+</resources>
