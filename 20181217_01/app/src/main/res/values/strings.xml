@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Computer Game</string>
+    <string name="title">跟電腦猜拳</string>
+    <string name="settings">Settings</string>
+    <string name="compGue">電腦出拳：</string>
+    <string name="playerGue">玩家出拳：</string>
+    <string name="sci">剪刀</string>
+    <string name="stone">石頭</string>
+    <string name="paper">布</string>
+    <string name="result">輸贏結果：</string>
+    <string name="win">太棒了！您贏了！</string>
+    <string name="lose">您輸了，再試一次吧！</string>
+    <string name="even">平手喔！</string>
+    <string name="compGueZone">電腦出拳區</string>
+</resources>

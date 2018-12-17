@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">清單選項</string>
+    <string name="chooseEdu">請選擇教育程度：</string>
+    <string name="chooseResult">選擇結果：</string>
+    <string-array name="edu">
+        <item>國小</item>
+        <item>國中</item>
+        <item>高中</item>
+        <item>大專</item>
+        <item>碩士</item>
+        <item>博士</item>
+        <item>教授</item>
+    </string-array>
+</resources>
