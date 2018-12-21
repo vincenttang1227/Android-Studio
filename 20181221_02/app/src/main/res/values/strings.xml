@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Intent Bundle</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="name">Name:</string>
+    <string name="age">Age:</string>
+    <string name="tall">Tall:</string>
+    <string name="send_data_to_secactivity">Send Data to SecActivity</string>
+    <string name="secondary_activity">Secondary Activity</string>
+    <string name="return_mainactivity">Return MainActivity</string>
+</resources>

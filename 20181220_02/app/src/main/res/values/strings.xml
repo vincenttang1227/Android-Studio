@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Marvel Heroes Poster</string>
+    <string name="prev">上一張</string>
+    <string name="next">下一張</string>
+    <string name="todo">TODO</string>
+    <string name="more_than_a_hero">MORE THAN A HERO</string>
+</resources>

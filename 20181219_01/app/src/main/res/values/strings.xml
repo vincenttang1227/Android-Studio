@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">20181219_01</string>
+    <string name="chooseEdu">請選擇教育程度：</string>
+    <string-array name="eduList">
+        <item>\t國小</item>
+        <item>\t國中</item>
+        <item>\t高中</item>
+        <item>\t大學</item>
+        <item>\t碩士</item>
+        <item>\t博士</item>
+    </string-array>
+    <string name="icon">圖示</string>
+</resources>

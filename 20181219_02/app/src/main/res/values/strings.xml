@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">猜拳遊戲</string>
+    <string name="title">跟電腦猜拳</string>
+    <string name="settings">Settings</string>
+    <string name="compGue">電腦出拳：</string>
+    <string name="playerGue">玩家出拳：</string>
+    <string name="sci">剪刀</string>
+    <string name="stone">石頭</string>
+    <string name="paper">布</string>
+    <string name="result">輸贏結果：\n</string>
+    <string name="win">太棒了！您贏了！</string>
+    <string name="lose">您輸了，再試一次吧！</string>
+    <string name="even">平手喔！</string>
+    <string name="compGueZone">電腦出拳區</string>
+    <string name="allset">全部局數：</string>
+    <string name="zero">0</string>
+    <string name="youwin">您贏：</string>
+    <string name="comwin">電腦贏：</string>
+    <string name="even_2">平手：</string>
+    <string name="reset">重新開始</string>
+</resources>

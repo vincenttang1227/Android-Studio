@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt1_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66CCCC"
+        android:text="@string/allset"
+        android:textColor="#FFCC00" />
+
+    <TextView
+        android:id="@+id/tv_totalSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt2_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66CCCC"
+        android:text="@string/youwin"
+        android:textColor="#FFCC00" />
+
+    <TextView
+        android:id="@+id/tv_youwin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt3_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66CCCC"
+        android:text="@string/comwin"
+        android:textColor="#FFCC00" />
+
+    <TextView
+        android:id="@+id/tv_comwin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt4_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66CCCC"
+        android:text="@string/even_2"
+        android:textColor="#FFCC00" />
+
+    <TextView
+        android:id="@+id/tv_even"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:textSize="18sp" />
+</LinearLayout>

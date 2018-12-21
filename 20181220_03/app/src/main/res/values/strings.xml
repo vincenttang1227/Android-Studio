@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">運動</string>
+    <string name="doit">執行</string>
+    <string name="show_msg">顯示訊息</string>
+</resources>

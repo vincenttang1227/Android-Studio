@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">肯麥堡點餐系統</string>
+    <string name="welcome">歡迎光臨肯麥堡</string>
+    <string name="intosystem">進入點餐系統</string>
+    <string name="kala_chicken_burg">克拉雞腿堡</string>
+    <string name="super_big_mac">超級大邁可</string>
+    <string name="double_burg">雙層滑堡</string>
+    <string name="mike_chicken">邁可雞塊</string>
+    <string name="general_chiecken">將軍雞塊</string>
+    <string name="cheese_chicken">豈是雞塊</string>
+    <string name="ok">確定</string>
+</resources>
