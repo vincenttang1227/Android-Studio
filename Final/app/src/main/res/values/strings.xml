@@ -6,7 +6,10 @@
     <string name="super_big_mac">超級大邁可</string>
     <string name="double_burg">雙層滑堡</string>
     <string name="mike_chicken">邁可雞塊</string>
-    <string name="general_chiecken">將軍雞塊</string>
+    <string name="general_chicken">將軍雞塊</string>
     <string name="cheese_chicken">豈是雞塊</string>
     <string name="ok">確定</string>
+    <string name="todo">TODO</string>
+    <string name="choose_food">您選擇的餐點：\n</string>
+    <string name="exit">退出系統</string>
 </resources>
