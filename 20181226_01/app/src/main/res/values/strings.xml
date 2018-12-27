@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">20181226_01</string>
+    <string name="click_to_play">點選歌曲即可播放</string>
+    <string name="front">front</string>
+    <string name="music_list">歌曲清單：</string>
+    <string name="stop">stop</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="next">next</string>
+    <string name="end">end</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Temperature Conversion</string>
+    <string name="result">Result：</string>
+    <string name="cel">Celsius：</string>
+    <string name="conver">TRANSFER</string>
+    <string name="clear">CLEAR</string>
+    <string name="degree">°C</string>
+    <string name="fah">Fahrenheit：</string>
+</resources>

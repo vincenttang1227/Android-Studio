@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">温度转换</string>
+    <string name="result">结果：</string>
+    <string name="cel">摄氏：</string>
+    <string name="conver">转 换</string>
+    <string name="clear">清 除</string>
+    <string name="degree">°C</string>
+    <string name="fah">华氏：</string>
+</resources>
